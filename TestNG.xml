@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="false" verbose="1" parallel="false" thread-count="4">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+    	<class name="com.membertest.TestLogin1"/>   
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
